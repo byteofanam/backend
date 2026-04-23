@@ -9,9 +9,14 @@
   ],
   "license": "ISC",
   "author": "anam",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14"
   }
 }
